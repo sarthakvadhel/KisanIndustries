@@ -1,0 +1,40 @@
+# WordPress files
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Database files (except the initial SQL file)
+*.sql
+!database/kisanindustries_initial.sql
+
+# Backup files (except placeholders)
+*.wpress
+!backup/README.md
+
+# Local development
+.htaccess
+error_log
+debug.log
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (if using any build tools)
+node_modules/
+package-lock.json
+
+# Composer (if using)
+vendor/
+composer.lock

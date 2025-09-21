@@ -1,0 +1,42 @@
+; Recommended PHP settings for WordPress and Elementor
+; Copy these settings to your php.ini file or create a custom php.ini
+
+; Memory and execution limits
+memory_limit = 512M
+max_execution_time = 300
+max_input_time = 300
+
+; File upload settings
+upload_max_filesize = 512M
+post_max_size = 512M
+max_file_uploads = 50
+
+; Input variables
+max_input_vars = 3000
+max_input_nesting_level = 64
+
+; Session settings
+session.save_path = "/tmp"
+session.gc_maxlifetime = 1440
+
+; Error reporting (for development)
+display_errors = On
+log_errors = On
+error_log = /tmp/php_errors.log
+
+; Extensions required for WordPress
+extension=mysqli
+extension=gd
+extension=curl
+extension=zip
+extension=mbstring
+extension=xml
+extension=json
+
+; OPcache settings (recommended for production)
+opcache.enable = 1
+opcache.memory_consumption = 128
+opcache.interned_strings_buffer = 8
+opcache.max_accelerated_files = 4000
+opcache.revalidate_freq = 2
+opcache.fast_shutdown = 1
