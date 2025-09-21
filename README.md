@@ -2,6 +2,10 @@
 
 This repository contains everything needed to set up the KisanIndustries WordPress website locally for development and testing. The live site uses WordPress with Elementor page builder and can be fully replicated locally using the provided backup and configuration files.
 
+## 🌐 Live Website
+
+**Visit the live website:** [https://kisanindustries.info](https://kisanindustries.info)
+
 ## 🚀 Quick Start
 
 1. [Install Prerequisites](#prerequisites)
