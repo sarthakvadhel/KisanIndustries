@@ -11,7 +11,6 @@ wp-content/wp-cache-config.php
 !database/kisanindustries_initial.sql
 
 # Backup files (except placeholders)
-*.wpress
 !backup/README.md
 
 # Local development
