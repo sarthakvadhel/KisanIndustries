@@ -1,0 +1,24 @@
+# Placeholder for animated GIFs from KisanIndustries website
+# 
+# This file serves as a placeholder and example for the types of GIFs
+# that should be collected from the website
+#
+# Expected GIF files:
+# - hero-banner-animation.gif
+# - product-showcase-loop.gif
+# - loading-spinner.gif
+# - process-demonstration.gif
+# - interactive-button-hover.gif
+# - background-pattern-animation.gif
+#
+# To add actual GIF files:
+# 1. Extract them from the website using browser dev tools
+# 2. Download them from the WordPress media library after import
+# 3. Use web crawling tools to automatically collect them
+# 4. Save them in this directory with descriptive names
+#
+# File naming convention:
+# - Use lowercase with hyphens
+# - Be descriptive about the content
+# - Include animation type or purpose
+# - Example: "product-demo-machinery.gif"
